@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "docstoteles-ai-assistant"
+version = "0.1.0"
+description = "Um assistente de documentação inteligente que combina web scraping com RAG (Retrieval Augmented Generation). Permite coletar conhecimento de sites, organizar em coleções e interagir através de chat com os documentos usando LLMs para respostas contextualizadas."
+authors = ["Samuel Sublate <samuelsublate.dev@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.44.0"
+python-dotenv = "^1.1.0"
+langchain = "^0.3.22"
+langchain-community = "^0.3.20"
+langchain-openai = "^0.3.11"
+faiss-cpu = "^1.10.0"
+openai = "^1.70.0"
+streamlit-js-eval = "^0.1.7"
+tinydb = "^4.8.2"
+requests = "^2.32.3"
+firecrawl = "^1.15.0"
+unstructured = "^0.17.2"
+markdown = "^3.7"
+tiktoken = "^0.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
