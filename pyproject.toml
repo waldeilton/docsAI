@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "docstoteles-ai-assistant"
-version = "0.1.0"
+name = "docsAI"
+version = "0.1.3"
 description = "Um assistente de documentação inteligente que combina web scraping com RAG (Retrieval Augmented Generation). Permite coletar conhecimento de sites, organizar em coleções e interagir através de chat com os documentos usando LLMs para respostas contextualizadas."
-authors = ["Samuel Sublate <samuelsublate.dev@gmail.com>"]
+authors = ["Moreira <moreira@w75.it>"]
 license = "MIT"
 readme = "README.md"
 
