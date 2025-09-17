@@ -1,4 +1,4 @@
-# Docstóteles - Assistente de Documentação Inteligente
+# docsAI - Assistente de Documentação Inteligente
 
 Um assistente de documentação inteligente que combina web scraping com RAG (Retrieval Augmented Generation). Permite coletar conhecimento de sites, organizar em coleções e interagir através de chat com os documentos usando LLMs para respostas contextualizadas.
 
@@ -22,7 +22,7 @@ Um assistente de documentação inteligente que combina web scraping com RAG (Re
 ## Estrutura do Projeto
 
 ```
-docstoteles/
+src/
 ├── Home.py                         # Página principal (chat)
 ├── pages/                          # Páginas adicionais
 │   ├── 1_🔍_Scraping.py            # Página de scraping
@@ -44,9 +44,8 @@ docstoteles/
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/docstoteles-ai-assistant.git
-cd docstoteles-ai-assistant
-```
+git clone https://github.com/waldeilton/docsAI.git
+cd docsAI
 
 2. Instale as dependências:
 ```bash
@@ -54,7 +53,7 @@ cd docstoteles-ai-assistant
 poetry add streamlit python-dotenv langchain langchain-community langchain-openai faiss-cpu openai streamlit-js-eval tinydb requests unstructured markdown
 
 # Se estiver usando Firecrawl diretamente do GitHub
-poetry add git+https://github.com/firecrawl/firecrawl-python.git
+poetry add git+https://github.com/waldeilton/firecrawl-py.git
 
 # OU com pip
 pip install streamlit python-dotenv langchain langchain-community langchain-openai faiss-cpu openai streamlit-js-eval tinydb requests unstructured markdown
